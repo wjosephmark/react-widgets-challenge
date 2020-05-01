@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3E8D8F;
+    height: 80px;
+
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50px;
+        width: 180px;
+        font-size: 1.5em;
+        background-color: #84CFCD;
+        border-radius: 3px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        color: #454851;
+
+        &:hover{
+            transition: ease-in-out .2s;
+            background-color: #527574;
+            border-radius: 8px;
+            height: 45px;
+            width: 175px;
+            cursor: pointer;
+        }
+
+       A{
+        text-decoration: none;
+        color: #FDFAF6;
+       }
+    }
+}
